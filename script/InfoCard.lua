@@ -1,7 +1,5 @@
 function onCreate()
     local toughness = checkDifficulty()
- 
--- when you see "makeLuaSprite('bgThing', 'BlackBar', -500, 250)", change the "BlackBar" to whatever your bar name is to show a image for it
 
 	makeLuaSprite('bgThing', 'BlackBar', -500, 250)
     scaleObject('bgThing', 0.35, 0.43)
