@@ -1,0 +1,10 @@
+~~ LOCATIONS ~~
+
+Image File : mods/images
+
+Script File : mods/scripts
+
+Font File : mods/fonts
+
+
+
