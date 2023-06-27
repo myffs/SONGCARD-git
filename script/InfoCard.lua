@@ -1,9 +1,9 @@
 function onCreate()
     local toughness = checkDifficulty()
 
-	makeLuaSprite('bgThing', 'BlackBar', -500, 250) -- read wiki if you want to change this !!
+    makeLuaSprite('bgThing', 'BlackBar', -500, 250) -- read wiki if you want to change this !!
     scaleObject('bgThing', 0.35, 0.43)
-	setObjectCamera('bgThing', 'hud')
+    setObjectCamera('bgThing', 'hud')
     addLuaSprite('bgThing', true)
     setScrollFactor('bgThing', 0, 0)
     setProperty('bgThing.alpha', tonumber(0.7))
