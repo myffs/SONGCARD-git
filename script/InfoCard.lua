@@ -1,7 +1,7 @@
 function onCreate()
     local toughness = checkDifficulty()
 
-	makeLuaSprite('bgThing', 'BlackBar', -500, 250)
+	makeLuaSprite('bgThing', 'BlackBar', -500, 250) -- read wiki if you want to change this !!
     scaleObject('bgThing', 0.35, 0.43)
 	setObjectCamera('bgThing', 'hud')
     addLuaSprite('bgThing', true)
@@ -9,7 +9,7 @@ function onCreate()
     setProperty('bgThing.alpha', tonumber(0.7))
 
 
-    makeLuaText('songText', "".. songName.. " by composer".. toughness, 400, getProperty('bgThing.x') + -50, 320)
+    makeLuaText('songText', "".. songName.. " Composed by: composer".. toughness, 400, getProperty('bgThing.x') + -50, 320)
     setObjectCamera("songText", 'hud');
     setTextColor('songText', '0xffffff')
     setTextSize('songText', 30);
@@ -18,7 +18,7 @@ function onCreate()
     setTextAlignment('songText', 'left')
     
 
-    makeLuaText('beforeSongText', "Now Playing : ", 300, getProperty('bgThing.x') + 100 - 40, 260)
+    makeLuaText('beforeSongText', "Currently Playing: ", 300, getProperty('bgThing.x') + 100 - 40, 260)
     setObjectCamera("beforeSongText", 'hud');
     setTextColor('beforeSongText', '0xffffff')
     setTextSize('beforeSongText', 25);
@@ -60,7 +60,7 @@ function onTweenCompleted(tag)
 end
 
 function checkDifficulty()
-    -- not needed really, but cool
+    -- read wiki if you want to code this in !!
     if difficulty == 2 then
         return '';
     elseif difficulty == 1 then
