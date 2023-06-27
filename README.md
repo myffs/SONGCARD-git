@@ -1,9 +1,10 @@
-# Welcome to the song card github
+# Welcome to the song card github.
 
-you can find:
+what you will encounter here:
 
-- API
-- DOCS
-- LATEST CODE
+- Latest Updates + Code
+- A Wiki
 
-Go check out the wiki for some apis
+if you're planning on adding this to you're mod / recoding it, go to the [wiki](https://github.com/LilDrippyMyFnf/SONGCARD-git/wiki) and please credit me.
+
+NOTE: there is no reason to fork this, if you counter a bug, report it on [issues](https://github.com/LilDrippyMyFnf/SONGCARD-git/issues), but you can use the .lua file if you're mod has a repo (also credit me for the 2nd time)
